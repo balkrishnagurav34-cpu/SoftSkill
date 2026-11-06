@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Skillverse by Mohit Sir</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>try{if(sessionStorage.getItem("ssIn"))document.documentElement.classList.add("skip")}catch(e){}</script>
+<style>.skip #intro{display:none}</style>
+</head>
+<body data-page="home">
+<canvas id="c"></canvas>
+<div id="flash"></div>
+<div id="cg"></div>
+<div id="wt"></div>
+
+<div id="intro">
+  <p class="tag">// INCOMING TRANSMISSION</p>
+  <div class="portal"><i></i><i></i><i></i><i></i><div class="brand-big" style="position:relative;font-size:clamp(20px,5vw,34px);text-align:center">SOFT<br>SKILLS</div></div>
+  <div class="brand-big" style="font-size:clamp(18px,4.5vw,36px)">BY MOHIT SIR</div>
+  <p>Put on your headphones, commander.</p>
+  <div class="cdwrap" role="timer" aria-live="off"><span class="cdlbl">LAUNCHING IN</span><div class="cd" id="cd">5</div></div>
+</div>
+
+
+<main>
+  <section class="hero" id="home">
+    <span class="tag">// WELCOME to skillverse</span>
+    <h2>Master the softskills<br>that move worlds.</h2>
+    <p>Technical skill gets you in the door. Skillverse decide how far you travel. Learn eight core skills with Mohit Sir, one for every planet.</p>
+    <a class="btn" href="#skills">Explore Skills</a>
+  </section>
+
+
+
+  <section id="about">
+    <h3 class="sec">// ABOUT US</h3>
+    <div class="two">
+      <div class="panel">
+        <h4>OUR MISSION</h4>
+        <p>Skillverse by Mohit Sirhelps students and young professionals build the people skills that careers are made of: communication, teamwork, confidence and leadership.</p>
+        <p>Every lesson is practical, simple and made for real situations like interviews, group work and the workplace.</p>
+      </div>
+      <div class="panel">
+        <h4>WHY LEARN WITH US</h4>
+        <p>Short sessions, real examples and daily practice tasks, so you keep improving and not just listening.</p>
+        <div class="stats"><div><b>8</b>Core skills</div><div><b>100%</b>Practical</div><div><b>∞</b>Growth</div></div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h3 class="sec">// CHOOSE YOUR PLANET</h3>
+    <div class="grid" id="grid"></div>
+  </section>
+  <section id="contact">
+    <h3 class="sec">// CONTACT</h3>
+    <div class="two">
+      <div class="panel">
+        <h4>LEAVE YOUR CONTACT</h4>
+        <form id="cf" class="fbform" novalidate>
+          <input name="n" placeholder="Your name" maxlength="60" autocomplete="name" aria-label="Your name">
+          <input name="e" type="email" placeholder="Your email" maxlength="100" autocomplete="email" aria-label="Your email">
+          <input name="p" type="tel" inputmode="tel" placeholder="Phone / WhatsApp number" maxlength="20" autocomplete="tel" aria-label="Phone number">
+          <textarea name="m" rows="4" maxlength="500" placeholder="How can we help you? (optional)" aria-label="Message"></textarea>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="frow"><button class="btn" type="submit">Send Contact</button><p class="fstat" role="status"></p></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h4>REACH US</h4>
+        <p>📧 pathakmohit0463@gmail.com</p>
+        <p>📞 +91 7972390509</p>
+        <p>📍 Hadpsar Pune</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

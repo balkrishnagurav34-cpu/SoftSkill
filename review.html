@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reviews · Skillverse by Mohit Sir</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="review">
+<canvas id="c"></canvas>
+<div id="flash"></div>
+<div id="cg"></div>
+<div id="wt"></div>
+
+<main>
+  <section class="pg">
+    <span class="tag">// VOICES FROM THE GALAXY</span>
+    <h2 class="ptitle">What our learners say</h2>
+    <p id="rsum" class="rsum"></p>
+    <p id="rnote" class="rnote" hidden>Demo mode: reviews are stored in this browser only. Add your Google Sheet link in config.js to save them for everyone.</p>
+    <a class="btn" href="feedback.html">Write a Review</a>
+    <div class="rgrid" id="rlist" aria-live="polite"><p class="dimmsg">Loading reviews…</p></div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
